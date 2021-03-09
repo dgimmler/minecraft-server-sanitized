@@ -1,0 +1,21 @@
+.players {
+  display: block;
+  float: left;
+  padding: 5px;
+}
+
+.players-list {
+  padding: 10px;
+}
+
+.player {
+  color: rgb(237, 237, 237, 0.5);
+}
+
+.player.online {
+  color: #ededed;
+}
+
+.players .svg-inline--fa.fa-w-16 {
+  width: 0.5em;
+}

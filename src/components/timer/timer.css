@@ -1,0 +1,50 @@
+.Timer.col-12.col-md-6 {
+  float: left;
+  width: 100%;
+  padding: 0;
+}
+
+/* @media screen and (min-width: 400px) {
+  .Timer {
+    float: right;
+  }
+} */
+
+/* only on xs and sm */
+.Timer div.d-block {
+  float: left;
+}
+
+/* everything else */
+.Timer div.d-none {
+  float: right;
+  /* padding-right: 50px; */
+}
+
+.timer-header {
+  margin-right: 10px;
+}
+
+.countdown {
+  width: 80px;
+  display: inline-block;
+  position: relative;
+}
+
+button.add-30 {
+  width: 80px;
+  min-width: 80px;
+  border: none;
+  background: none;
+  color: #6ead43;
+  position: absolute;
+  left: 60px;
+  bottom: -1px;
+  overflow: visible;
+  white-space: nowrap;
+}
+
+button.add-30:hover {
+  transform: scale(1.01);
+  color: #6ebd43;
+}

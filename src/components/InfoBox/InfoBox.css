@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@300&display=swap");
+
+.hub h1 {
+  font-size: 2rem;
+  letter-spacing: 3px;
+  font-family: "Lato", san-serf;
+}
+
+.hub h2 {
+  color: #ededed;
+  font-size: 1rem;
+  margin: 10px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  display: inline;
+  text-align: center;
+}
+
+.subtext {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.subtext svg.svg-inline--fa.fa-w-16 {
+  display: inline;
+  text-align: center;
+  width: 0.5em;
+  margin: 0;
+}
+
+path,
+svg {
+  margin-right: 5px;
+}
+
+.ServerStatus > .text > .col-12 {
+  padding-right: 0;
+}
+
+.server-status.col-12 {
+  float: left;
+  padding-left: 0;
+  margin-left: -3px;
+}
+
+.hub a {
+  float: left;
+  text-decoration: none;
+  color: #ededed;
+}
+
+.hub a:hover {
+  text-decoration: none;
+  color: #eee;
+  transform: scale(1.01);
+}
+
+.info {
+  width: 100%;
+  padding: 10px 15px;
+  float: left;
+}
+
+.info a svg {
+  font-size: 20px;
+  vertical-align: -0.225em;
+}
+
+/* .header {
+  background-image: url(/static/media/pngwing.com.cdc945f6.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  height: 100px;
+  padding: 10px;
+} */

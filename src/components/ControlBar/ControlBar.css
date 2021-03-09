@@ -1,0 +1,119 @@
+.ControlBar {
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 25px;
+}
+
+.Menu {
+  float: left;
+  /* max-width: 750px !important */
+}
+
+.Menu li {
+  float: left;
+  list-style: none;
+}
+
+.Menu li button {
+  width: 100%;
+  /* border-radius: 0.25rem; */
+  border-radius: 25px;
+  padding: 10px;
+  border: 1px solid #dfdfdf;
+}
+
+.Menu li button.profile-item {
+  background: none;
+  border: None;
+}
+
+.Menu .dropdown-menu {
+  /* min-width: 0px; */
+  top: 10px !important;
+  background: rgb(237, 237, 237, 0.75);
+}
+
+.Menu .dropdown-item:hover {
+  background-color: rgb(237, 237, 237, 0.55);
+}
+
+.profile-item {
+  text-align: left;
+}
+
+.dropdown-toggle.btn-secondary,
+.dropdown-toggle.btn-secondary:focus,
+.dropdown-toggle.btn-secondary:active,
+#map-button {
+  /*
+   *  The !importants here are technically bad practice, but the default styling
+   #  set by bootstrap is so ingrained it's unpractical to overwrite them
+   #  with specificity alone.
+   */
+  color: #ededed;
+  background: none !important;
+  border: 1px solid #ededed !important;
+  box-shadow: none !important;
+}
+
+li button:disabled,
+#map-button:disabled,
+#dropdown-basic:disabled {
+  color: rgb(237, 237, 237, 0.5);
+  border: 1px solid rgb(237, 237, 237, 0.5) !important;
+}
+
+.dropdown-menu.show {
+  min-width: 25rem;
+  color: #ededed;
+}
+
+.dropdown .btn:hover {
+  color: #ededed;
+  text-decoration: none;
+}
+
+button {
+  border-color: #6c757d;
+}
+
+button a,
+button a:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+button.x {
+  /* background: #aaa; */
+  background: none;
+}
+
+button.x.in-progress,
+ul li button.stop.light.in-progress,
+ul li button.start.light.in-progress {
+  /* background: #ededed; */
+  background: none;
+}
+
+button.start {
+  background: #6ead43;
+}
+
+button.start:hover {
+  background: #6ebd43;
+}
+
+button.stop {
+  background: #d43030;
+}
+
+button.stop:hover {
+  background: #d44030;
+}
+
+.light {
+  color: #ededed;
+}
+
+li {
+  margin-top: 20px;
+}

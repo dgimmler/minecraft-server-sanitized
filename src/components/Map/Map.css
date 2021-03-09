@@ -1,0 +1,23 @@
+.home {
+  position: absolute;
+  width: 300px;
+  background: none;
+  top: 75px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home button {
+  background: none;
+  color: #fff;
+  border: none;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  font-family: "Lato", san-serf;
+}
+
+.home:hover {
+  transform: scale(1.01);
+}
